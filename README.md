@@ -10,7 +10,7 @@ Installation
 2. Create MySQL user (e.g., reqbase_dev)
 3. Download database from http://lelystad.informatik.uni-mannheim.de/reqbase-db/
 4. Gunzip it: gunzip DUMP-FILE
-5. Load database: mysql -u reqbase-dev -p reqbase-dev < UNZIPPED-FILE
+5. Load database: mysql -u reqbase_dev -p reqbase_dev < UNZIPPED-FILE
 6. Clone ReqBase
 7. Copy htdocs/sites/default/reqbase-settings.php to htdocs/sites/default/settings.php
 8. Adjust settings.php to your needs (just the password, if you use reqbase_dev)
