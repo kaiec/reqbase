@@ -1,24 +1,30 @@
 ReqBase Requirements Database
 =============================
 
-Local Install
--------------
+Installation
+------------
 
-1. Create empty database in MySQL (e.g., reqbase-dev)
-2. Create MySQL user (e.g., reqbase-dev)
+### Local Install
+
+1. Create empty database in MySQL (e.g., reqbase_dev)
+2. Create MySQL user (e.g., reqbase_dev)
 3. Download database from http://lelystad.informatik.uni-mannheim.de/reqbase-db/
 4. Gunzip it: gunzip DUMP-FILE
 5. Load database: mysql -u reqbase-dev -p reqbase-dev < UNZIPPED-FILE
 6. Clone ReqBase
 7. Copy htdocs/sites/default/reqbase-settings.php to htdocs/sites/default/settings.php
-8. Adjust settings.php to your needs (just the password, if you use reqbase-dev)
+8. Adjust settings.php to your needs (just the password, if you use reqbase_dev)
 9. Make htdocs accessible via Apache (see Drupal manual for details)
 
-Update
-------
+### Update
 
 1. Update your GIT repository
 2. Download recent database dump
-3. Empty your database (e.g., reqbase-dev)
+3. Empty your database (e.g., reqbase_dev)
 4. Reload database using steps above
 
+Database
+--------
+
+The database is the original database including all users. It has been stripped of passwords and email adresses
+using drush sql-sanitize. You can log in as one of the users or as dev-admin using the standard password 'password'.

@@ -41,8 +41,8 @@ $databases = array (
   array (
     'default' => 
     array (
-      'database' => 'reqbase-dev',
-      'username' => 'reqbase-dev',
+      'database' => 'reqbase_dev',
+      'username' => 'reqbase_dev',
       'password' => 'CHANGE',
       'host' => 'localhost',
       'port' => '',
