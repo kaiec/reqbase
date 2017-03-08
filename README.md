@@ -15,6 +15,7 @@ Installation
 7. Copy htdocs/sites/default/reqbase-settings.php to htdocs/sites/default/settings.php
 8. Adjust settings.php to your needs (just the password, if you use reqbase_dev)
 9. Make htdocs accessible via Apache (see Drupal manual for details)
+10. Log in as user 'dev-admin' (password: password)
 
 ### Update
 
