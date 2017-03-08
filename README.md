@@ -8,7 +8,7 @@ Installation
 
 1. Create empty database in MySQL (e.g., reqbase_dev)
 2. Create MySQL user (e.g., reqbase_dev)
-3. Download database from http://lelystad.informatik.uni-mannheim.de/reqbase-db/
+3. Get the database file public-dump-final.sql.gz
 4. Gunzip it: gunzip DUMP-FILE
 5. Load database: mysql -u reqbase_dev -p reqbase_dev < UNZIPPED-FILE
 6. Clone ReqBase
